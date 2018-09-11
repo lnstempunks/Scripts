@@ -1,15 +1,15 @@
-echo "Installing Xcode..."
-echo "You may have to go to Self-Service and install the Xcode thing if it asks for an admin password."
+echo "Installing Xcode...";
+echo "You may have to go to Self-Service and install the Xcode thing if it asks for an admin password.";
 
-xcode-select --install
+xcode-select --install;
 
-echo "Installing Homebrew..."
+echo "Installing Homebrew...";
 
-git clone https://github.com/Homebrew/brew $HOME/brew
+git clone https://github.com/Homebrew/brew $HOME/brew;
 
-echo "[[ -s ~/.bashrc ]] && source ~/.bashrc" >> $HOME/.bash_profile
+echo "[[ -s ~/.bashrc ]] && source ~/.bashrc" >> $HOME/.bash_profile;
 
-echo "PATH=$HOME/brew/bin:$PATH" >> $HOME/.bashrc
+echo "PATH=$HOME/brew/bin:$PATH" >> $HOME/.bashrc;
 
-echo "Homebrew installed and path set."
-echo "Restart Terminal/iTerm to use brew."
+echo "Homebrew installed and path set.";
+echo "Restart Terminal/iTerm to use brew.";
